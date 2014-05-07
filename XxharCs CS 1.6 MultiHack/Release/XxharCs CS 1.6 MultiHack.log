@@ -1,18 +1,25 @@
-﻿Der Buildvorgang wurde am 28.03.2014 10:10:06 gestartet.
-     1>Projekt "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 07.05.2014 13:56:03 gestartet.
+     1>Projekt "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" auf Knoten "2", Rebuild Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KILLBILL10_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Aimbot.cpp eventhook.cpp gamehooking.cpp handlers.cpp install.cpp NoRecoil.cpp NoSpread.cpp opengl.cpp perfectwall.cpp playeritems.cpp players.cpp textures.cpp weaponlist.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KILLBILL10_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Aimbot.cpp eventhook.cpp gamehooking.cpp handlers.cpp install.cpp main.cpp Misc\engine.cpp Misc\parsemsg.cpp Misc\splice.cpp Misc\utils.cpp ModuleSecurity.cpp NoRecoil.cpp NoSpread.cpp opengl.cpp perfectwall.cpp playeritems.cpp players.cpp stringfinder.cpp textures.cpp weaponlist.cpp
          Aimbot.cpp
          eventhook.cpp
          gamehooking.cpp
          handlers.cpp
          install.cpp
+         main.cpp
+         engine.cpp
+         parsemsg.cpp
+         splice.cpp
+         utils.cpp
+         ModuleSecurity.cpp
          NoRecoil.cpp
          NoSpread.cpp
          opengl.cpp
          perfectwall.cpp
          playeritems.cpp
          players.cpp
+         stringfinder.cpp
          textures.cpp
          weaponlist.cpp
        Link:
@@ -39,8 +46,8 @@
          Code wird generiert.
          Codegenerierung ist abgeschlossen.
          XxharCs CS 1.6 MultiHack.vcxproj -> D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\Release\harCs.dll
-     1>Die Erstellung des Projekts "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" ist abgeschlossen, Build Ziel(e).
+     1>Die Erstellung des Projekts "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:07.25
+Verstrichene Zeit 00:00:11.68

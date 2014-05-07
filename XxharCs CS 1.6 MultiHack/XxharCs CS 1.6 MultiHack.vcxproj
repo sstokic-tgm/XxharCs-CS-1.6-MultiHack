@@ -45,8 +45,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Downloads\GL_[www.unknowncheats.me]_\GL;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Downloads\GL_[www.unknowncheats.me]_\GL;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\GL;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\GL;$(LibraryPath)</LibraryPath>
     <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
