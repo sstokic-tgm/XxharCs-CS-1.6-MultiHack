@@ -795,11 +795,11 @@ void APIENTRY hooked_glViewport(GLint x, GLint y, GLsizei width, GLsizei height)
 			MenuUp();
 			Last_Key = VK_NUMPAD8;
 		}
-		else if((GetAsyncKeyState(VK_NUMPAD1) < 0) && (Last_Key != VK_NUMPAD1))
+		else if((GetAsyncKeyState(0x50) < 0) && (Last_Key != 0x50))
 		{
 			menu.active = !menu.active;
 			draw.menu = !draw.menu;
-			Last_Key = VK_NUMPAD1;
+			Last_Key = 0x50;
 		}
 		else if((GetAsyncKeyState(VK_NUMPAD4) < 0) && (Last_Key != VK_NUMPAD4) && (menu.active))
 		{
@@ -818,7 +818,7 @@ void APIENTRY hooked_glViewport(GLint x, GLint y, GLsizei width, GLsizei height)
 		}
 		else if(!(GetAsyncKeyState(VK_NUMPAD2) < 0) && 
 				!(GetAsyncKeyState(VK_NUMPAD6) < 0) && 
-				!(GetAsyncKeyState(VK_NUMPAD1) < 0) && 
+				!(GetAsyncKeyState(0x50) < 0) && 
 				!(GetAsyncKeyState(VK_NUMPAD8) < 0) && 
 				!(GetAsyncKeyState(VK_NUMPAD4) < 0))
 					Last_Key = 0;

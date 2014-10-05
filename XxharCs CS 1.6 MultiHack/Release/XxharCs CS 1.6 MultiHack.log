@@ -1,27 +1,8 @@
-﻿Der Buildvorgang wurde am 07.05.2014 13:56:03 gestartet.
-     1>Projekt "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+﻿Der Buildvorgang wurde am 05.10.2014 11:40:58 gestartet.
+     1>Projekt "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KILLBILL10_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Aimbot.cpp eventhook.cpp gamehooking.cpp handlers.cpp install.cpp main.cpp Misc\engine.cpp Misc\parsemsg.cpp Misc\splice.cpp Misc\utils.cpp ModuleSecurity.cpp NoRecoil.cpp NoSpread.cpp opengl.cpp perfectwall.cpp playeritems.cpp players.cpp stringfinder.cpp textures.cpp weaponlist.cpp
-         Aimbot.cpp
-         eventhook.cpp
-         gamehooking.cpp
-         handlers.cpp
-         install.cpp
-         main.cpp
-         engine.cpp
-         parsemsg.cpp
-         splice.cpp
-         utils.cpp
-         ModuleSecurity.cpp
-         NoRecoil.cpp
-         NoSpread.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Ob1 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KILLBILL10_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt opengl.cpp
          opengl.cpp
-         perfectwall.cpp
-         playeritems.cpp
-         players.cpp
-         stringfinder.cpp
-         textures.cpp
-         weaponlist.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\Release\harCs.dll" /INCREMENTAL:NO /NOLOGO opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\Release\harCs.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT:NO /IMPLIB:"D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\Release\harCs.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\Aimbot.obj
          Release\eventhook.obj
@@ -46,8 +27,8 @@
          Code wird generiert.
          Codegenerierung ist abgeschlossen.
          XxharCs CS 1.6 MultiHack.vcxproj -> D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\Release\harCs.dll
-     1>Die Erstellung des Projekts "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+     1>Die Erstellung des Projekts "D:\Eigene Datei\Documents\Visual Studio 2012\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack\XxharCs CS 1.6 MultiHack.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:11.68
+Verstrichene Zeit 00:00:01.64

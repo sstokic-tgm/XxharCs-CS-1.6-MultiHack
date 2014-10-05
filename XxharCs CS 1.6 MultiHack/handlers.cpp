@@ -148,6 +148,23 @@ void HookStudio( void )
 
 static bool Init = false;
 
+void DrawConString (int x, int y, int r, int g, int b, const char *fmt, ... )
+{
+	va_list va_alist;
+	char buf[256];
+
+	va_start (va_alist, fmt);
+	_vsnprintf (buf, sizeof(buf), fmt, va_alist);
+	va_end (va_alist);
+
+	int length, height;
+
+	y += 4;
+	gEngfuncs.pfnDrawConsoleStringLen( buf, &length, &height );
+	gEngfuncs.pfnDrawSetTextColor(r/255.0f, g/255.0f, b/255.0f);
+	gEngfuncs.pfnDrawConsoleString(x,y,buf);
+}
+
 void InitHack()
 {
 	g_Screen.iSize = sizeof( SCREENINFO );
@@ -167,23 +184,6 @@ void HUD_Frame( double time )
 		Init = true;
 	}
 	gClient.HUD_Frame( time );
-}
-
-void DrawConString (int x, int y, int r, int g, int b, const char *fmt, ... )
-{
-	va_list va_alist;
-	char buf[256];
-
-	va_start (va_alist, fmt);
-	_vsnprintf (buf, sizeof(buf), fmt, va_alist);
-	va_end (va_alist);
-
-	int length, height;
-
-	y += 4;
-	gEngfuncs.pfnDrawConsoleStringLen( buf, &length, &height );
-	gEngfuncs.pfnDrawSetTextColor(r/255.0f, g/255.0f, b/255.0f);
-	gEngfuncs.pfnDrawConsoleString(x,y,buf);
 }
 
 int HUD_GetStudioModelInterface ( int version, struct r_studio_interface_s **ppinterface, struct engine_studio_api_s *pstudio )
