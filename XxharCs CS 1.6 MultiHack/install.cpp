@@ -39,7 +39,10 @@ void InitOffsets()
 	{
 		Base = HwBase;
 		Size = 0x0122A000;
+		//Protocol 48
+		//Size = 0x119000;
 	}
+	
 
 	DWORD enginefunctions = utilsFindPattern(Base, Size, (BYTE*)"invalid sound %i\x0A", "xxxxxxxxxxxxxxxxx")+24;
 	pEngfuncs = (cl_enginefuncs_s*)enginefunctions;
@@ -53,6 +56,10 @@ void InitOffsets()
 	unsigned char* PushEngstudioPointer = (unsigned char*)utilsFindPattern(Base, Size, 
 		(BYTE*)"\x68\x00\x00\x00\x00\x68\x00\x00\x00\x00\x6A\x01\xFF\xD0\x83\xC4\x0C\x85\xC0\x75\x12\x68\x00\x00\x00\x00\xE8\x00\x00\x00\x00\x83\xC4\x04\xE9\x00\x00\x00\x00\xC3",
 		"x????x????xxxxxxxxxxxx????x????xxxx????x");
+	/* Protocol 48
+	unsigned char* PushEngstudioPointer = (unsigned char*)utilsFindPattern(Base, Size, 
+		(BYTE*)"\x68\x00\x00\x00\x00\x68\x00\x00\x00\x00\x6A\x01\xFF\xD0\x83\xC4\x0C\x85\xC0\x75\x12\x68\x00\x00\x00\x00\xE8\x00\x00\x00\x00\x83\xC4\x04\xE8\x00\x00\x00\x00\x5D\xC3",
+		"x????x????xxxxxxxxxxxx????x????xxxx????xx");*/
 	if( !IsBadReadPtr((LPCVOID)PushEngstudioPointer, sizeof DWORD) )
 	{
 		pStudio = (engine_studio_api_s*)XREAD_LONG(PushEngstudioPointer+1);

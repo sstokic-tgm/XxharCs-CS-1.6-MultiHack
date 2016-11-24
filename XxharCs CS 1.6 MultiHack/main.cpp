@@ -14,7 +14,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 
 		//HideModuleFromPEB(hinstDLL);
 		//RemovePeHeader((DWORD)hinstDLL);
-		
+
 		utilsDPrint("Initializing...");
 		InstallCheat();
 
